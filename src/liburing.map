@@ -89,4 +89,5 @@ LIBURING_2.5 {
 LIBURING_2.6 {
 	global:
 		io_uring_buf_ring_head;
+		io_uring_submit_and_wait_min_timeout;
 } LIBURING_2.5;
